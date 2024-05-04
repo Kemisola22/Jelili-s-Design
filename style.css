@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.content{
+    margin-left: 10px;
+    padding:50px;
+    padding-top: 150px;
+    align-items: center;
+}
+.about{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    gap: 1.5em;  
+}
+.about img{
+height: 80vh;
+margin-left: 5px;
+margin-right: 30px;
+border-radius: 90%;
+padding: 50px;
+}
+.about-me{
+    width: 100%;
+}
+h1{
+    padding-top: 0;
+    font-size: 2em;
+}
+p{
+    padding: 13px 0 25px;
+    font-size: 1.3em;
+}
+.btn-group{
+    display: flex;
+    gap: 1em;
+}
+button{
+    padding: 15px 25px;
+    font-size: 1em;
+    font-weight: 500;
+    border-radius: 2px solid black;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.05);
+}
+button:nth-of-type(2){
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+}
+button:nth-of-type(2):hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.05);
+}
+
